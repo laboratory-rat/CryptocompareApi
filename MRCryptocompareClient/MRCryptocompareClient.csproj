@@ -2,10 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/laboratory-rat/CryptocompareApi</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/laboratory-rat/CryptocompareApi</RepositoryUrl>
+    <Authors>LaboratoryRat &lt;oleg.timofeev20@gmail.com&gt;</Authors>
+    <Company>Mar Rat Studio</Company>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseUrl>https://github.com/laboratory-rat/CryptocompareApi/blob/master/LICENSE</PackageLicenseUrl>
+    <Copyright>MIT License</Copyright>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>D:\projects\packages\mr.cryptocompare.client\MRCryptocompareClient\MRCryptocompareClient\MRCryptocompareClient.xml</DocumentationFile>
+    <DocumentationFile>C:\projects\MadRat\packages\CryptocompareApi\cryptocompareapi\MRCryptocompareClient\MRCryptocompareClient.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
